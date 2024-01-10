@@ -32,7 +32,7 @@ public class Voucher implements Serializable {
 	}
 
 	public Voucher() {
-		sales = new ArrayList<SaleItem>();
+		sales = new ArrayList<>();
 	}
 
 	public int getId() {

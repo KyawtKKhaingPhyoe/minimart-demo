@@ -12,6 +12,14 @@
 <body>
 
 	<h1>My Cart</h1>
+	
+	<hr />
+	
+	<p>
+		<a href="index.jsp">Home</a>
+	</p>
+	
+	<hr />
 
 	<p>Item Details in Shopping Cart</p>
 
@@ -63,9 +71,17 @@
 
 	</table>
 	
-	<p>
-		<a href="index.jsp">Home</a>
-	</p>
+	<hr />
+	
+	<h3>CheckOut</h3>
+	
+	<form action="checkout" method="post">
+		<label for="">Customer Name : </label>
+		<input type="text" placeholder="Enter customer name " name="customer" />
+		<button type="submit">Check Out</button>
+	</form>
+	
+	<hr />
 
 </body>
 </html>

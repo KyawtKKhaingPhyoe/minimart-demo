@@ -70,7 +70,7 @@
 	</table>
 	
 	<p>
-	<a href="">Sale History</a>
+	<a href="sale-history">Sale History</a>
 	</p>
 	
 

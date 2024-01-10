@@ -18,7 +18,7 @@
 
 	<%
 	@SuppressWarnings("unchecked")
-	List<Voucher> list = (List<Voucher>) request.getAttribute("");
+	List<Voucher> list = (List<Voucher>) request.getAttribute("data");
 	%>
 
 	<!-- Title -->
@@ -42,7 +42,9 @@
 			for (Voucher v : list) {
 			%>
 			<tr>
-				<td><%= v.getId() %></td>
+				<td>
+				<a href="sale-details?id=<%= v.getId()%>"><%= v.getId() %></a>
+				</td>
 				<td><%= formatDateTime(v.getSaleTime()) %></td>
 				<td><%= v.getCustomer() %></td>
 				<td><%= v.itemCount() %></td>
