@@ -1,0 +1,5 @@
+Food	Potato Chips	500
+Food	Fish Chips	500
+Drink	Pepsi	500
+Drink	Coffee	900
+Drink	Pep	500
