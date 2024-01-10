@@ -69,6 +69,10 @@
 
 	</table>
 	
+	<p>
+	<a href="">Sale History</a>
+	</p>
+	
 
 </body>
 </html>
